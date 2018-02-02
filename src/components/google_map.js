@@ -18,3 +18,5 @@ class GoogleMap extends Component {
 }
 
 export default GoogleMap
+
+//check react-google-maps.
