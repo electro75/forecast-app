@@ -19,14 +19,14 @@ class WeatherList extends Component {
                 <td> <GoogleMap lat= {lat} lon={lon} /> </td>
                 <td> <Chart data = {temps} color = "orange" units="K" /></td>
                 <td> <Chart data = {humidity} color = "green" units="hPa"/></td>
-                <td> <Chart data={ pressure } color = "blue" units="%" /></td>
+                <td> <Chart data={ pressure } color = "#42B3FD" units="%" /></td>
             </tr>
         )
     }
 
     render () {
         return (
-            <table className="table table-hover">
+            <table className="table">
                 <thead>
                     <tr>
                         <th>City</th>
